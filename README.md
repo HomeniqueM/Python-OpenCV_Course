@@ -1,4 +1,5 @@
-# Python-OpenCV Course
+# OpenCV with Python Course
+## 1. Installation
 
 ### Credits
 
