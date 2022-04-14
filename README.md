@@ -1,4 +1,4 @@
-# Python-OpenCV_Course
+# Python-OpenCV Course
 
 ### Credits
 
