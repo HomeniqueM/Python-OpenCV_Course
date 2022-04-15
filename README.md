@@ -1,7 +1,7 @@
 # OpenCV with Python Course
 ## 1. Installation
 
-[**Opencv contrib**](https://pypi.org/project/opencv-contrib-python/) Everythung in main package of open cv, as well as contibution modules
+[**` Opencv contrib `**](https://pypi.org/project/opencv-contrib-python/) Everythung in main package of open cv, as well as contibution modules
 ```bash
 pip install opencv-contrib-python
 ```
