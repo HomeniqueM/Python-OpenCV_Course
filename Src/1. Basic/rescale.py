@@ -17,9 +17,10 @@ def rescaleFrame(frame,scale =0.75):
     return cv.resize(frame, dimensions, interpolation= cv.INTER_AREA)
 
 
-## By default
+# By default
 cv.imshow('Image Rescale default', rescaleFrame(img))
 
+# Rescales the image to 20% of the original size
 cv.imshow('Image Rescale 20%', rescaleFrame(img,scale=0.20))
 
 
