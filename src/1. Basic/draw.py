@@ -38,5 +38,10 @@ cv.imshow('Filled circle ', blank)
 # 4. Draw Line
 cv.line(blank,(0,0),(blank.shape[1]//2,blank.shape[0]//2),(255,255,255), thickness=3)
 cv.imshow('Line ', blank)
+blank[:] = 0,0,0
+# 5. Write Text
+cv.putText(blank, 'Hello', (225,255), (cv.FONT_HERSHEY_TRIPLEX), 1.0, (0,255,0), thickness=2)
+
+cv.imshow('Text in blank image ', blank)
 
 cv.waitKey(0)
