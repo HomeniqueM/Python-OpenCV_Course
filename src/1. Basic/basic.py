@@ -1,13 +1,21 @@
 import cv2 as cv 
 
-img = cv.imread('../../resources/images/calibration.jpg')
+img = cv.imread('../../resources/images/paris-Test.jpg')
 
 ## Show image in a windows
-cv.imshow('calibration.jpg', img)
+cv.imshow('paris-Test.jpg', img)
 
 # Converting to grayscale 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 cv.imshow('Gray', gray)
+
+# Blur 
+blur = cv.GaussianBlur(img, (3,3), cv.BORDER_DEFAULT)
+cv.imshow('Blur 3x3', blur)
+
+blur = cv.GaussianBlur(img, (7,7), cv.BORDER_DEFAULT)
+cv.imshow('Blur 7x7', blur)
+
 
 cv.waitKey(0)
